@@ -73,7 +73,7 @@ location, description, updated_on, updated_by, frequency, event_image FROM publi
 		$overall[]="<img src='".$get_file."' width='50' height='50'>".$fetch_name."-&nbsp;on&nbsp;".$fetch_name333."&nbsp  happens&nbsp;".$fetch_name666."&nbsp;at&nbsp;".$fetch_name444."&nbsp;upto&nbsp;".$fetch_name555;
 	}
 	
-}//print_r($get_file);exit;
+}
   
 ?>
 
