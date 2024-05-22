@@ -9,89 +9,63 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #eef2f3;
+            background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background-color: #0288d1;
+            background-color: #333;
             color: white;
             padding: 1rem 0;
             text-align: center;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #0277bd;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 1rem 2rem;
-            display: block;
-        }
-        nav a:hover {
-            background-color: #01579b;
-        }
         .container {
-            width: 90%;
+            width: 80%;
             margin: 0 auto;
             padding: 2rem 0;
         }
         h1, h2 {
-            color: #0288d1;
+            color: #333;
         }
-        .section {
+        .about, .resume {
             background-color: white;
             padding: 2rem;
             margin-bottom: 2rem;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .about p {
-            line-height: 1.6;
-        }
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #0288d1;
+            background-color: #333;
             color: white;
         }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 0.5rem;
-            margin: 0.5rem 0;
-            border-radius: 4px;
-            border: 1px solid #ccc;
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Agavu</h1>
-        <p>Expansive Professional Portfolio</p>
+        <p>Professional Portfolio</p>
     </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#resume">Resume</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
     <div class="container">
-        <section id="about" class="section about">
+        <section class="about">
             <h2>About Me</h2>
             <p>
-                Welcome to my professional portfolio. My name is [Your Name], and I am an experienced [Your Profession] with a rich background in [Your Field]. My work spans various industries and disciplines, demonstrating a broad skill set and an inclusive approach to problem-solving. I am passionate about [Your Interests], and I strive to bring an expansive perspective to all my projects.
+                <!-- Add your professional background, key skills, and personal interests here -->
+                Welcome to my professional portfolio. I am an experienced [Your Profession] with a strong background in [Your Field]. My key skills include [Skill 1], [Skill 2], and [Skill 3]. I am passionate about [Your Interests].
             </p>
         </section>
-        <section id="resume" class="section resume">
+        <section class="resume">
             <h2>Resume</h2>
             <p>
-                <strong><?php
-
-echo ("I Love You!");
-  
-?>
-<br>
+                <!-- Add your resume details here -->
+                <strong>Experience:</strong><br>
                 [Job Title] at [Company] - [Dates]<br>
                 - [Responsibility/Accomplishment 1]<br>
                 - [Responsibility/Accomplishment 2]<br><br>
@@ -109,32 +83,12 @@ echo ("I Love You!");
                 - [Certification 2]
             </p>
         </section>
-        <section id="projects" class="section projects">
-            <h2>Projects</h2>
-            <p>
-                <!-- Showcase your diverse projects here -->
-                <strong>Project 1:</strong> [Description of the project, what it entailed, and your role]<br>
-                <strong>Project 2:</strong> [Description of the project, what it entailed, and your role]<br>
-                <strong>Project 3:</strong> [Description of the project, what it entailed, and your role]
-            </p>
-        </section>
-        <section id="contact" class="section contact">
-            <h2>Contact</h2>
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required><br>
-                <input type="email" name="email" placeholder="Your Email" required><br>
-                <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-            <p>Connect with me: 
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
-                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-            </p>
-        </section>
     </div>
     <footer>
-        <p>&copy; 2024 Agavu. All rights reserved.</p>
+        <p>Connect with me: 
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </p>
     </footer>
 </body>
 </html>
-
